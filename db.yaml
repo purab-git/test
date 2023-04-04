@@ -15,7 +15,6 @@ spec:
       containers:
         - name: mediawiki-db
           image: mariadb
-          imagePullPolicy: Never
           env:
             - name: MYSQL_DATABASE
               value: my_wiki
